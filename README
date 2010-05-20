@@ -1,0 +1,7 @@
+This is a simple example on how to create the SOPERA Provider that is handling requests
+within a single Thread.
+
+In SOPERA PAPI we have a limitation that once MessageHandler recieved a message it should read and respond
+to it in the same thread.  This limitation could be avoided by using the QueuedMessageHandler class.
+
+See example inside org.sopera.talend.test.TestProviderQueue.
