@@ -5,3 +5,5 @@ In SOPERA PAPI we have a limitation that once MessageHandler recieved a message 
 to it in the same thread.  This limitation could be avoided by using the QueuedMessageHandler class.
 
 See example inside org.sopera.talend.test.TestProviderQueue.
+
+Basically I can add any useless feature! :-)
