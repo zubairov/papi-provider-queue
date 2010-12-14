@@ -26,7 +26,7 @@ import org.sopware.papi.untyped.consumer.RequestResponseOperationProxy;
 import org.sopware.papi.untyped.consumer.ServiceProxy;
 
 public class TestConsumer extends TestCase {
-
+    // Comment!
 	private static final Random rnd = new Random(System.currentTimeMillis());
 	
 	public static void main(String[] params) throws Exception {
